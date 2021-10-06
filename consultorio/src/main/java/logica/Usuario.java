@@ -89,5 +89,7 @@ public class Usuario {
         this.apellidos = apellidos;
     }
     
-    
+    public String userString(){
+        return this.getApellidos();
+    }
 }
